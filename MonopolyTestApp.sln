@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyTestApp", "MonopolyTestApp\MonopolyTestApp.csproj", "{F2D166B7-8AE5-4F70-9AB5-E8FAD8B90FAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2D166B7-8AE5-4F70-9AB5-E8FAD8B90FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D166B7-8AE5-4F70-9AB5-E8FAD8B90FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D166B7-8AE5-4F70-9AB5-E8FAD8B90FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D166B7-8AE5-4F70-9AB5-E8FAD8B90FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

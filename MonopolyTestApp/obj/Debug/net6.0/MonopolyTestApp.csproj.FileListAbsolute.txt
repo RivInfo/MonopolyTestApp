@@ -1,0 +1,15 @@
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\bin\Debug\net6.0\MonopolyTestApp.exe
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\bin\Debug\net6.0\MonopolyTestApp.deps.json
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\bin\Debug\net6.0\MonopolyTestApp.runtimeconfig.json
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\bin\Debug\net6.0\MonopolyTestApp.dll
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\bin\Debug\net6.0\MonopolyTestApp.pdb
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\obj\Debug\net6.0\MonopolyTestApp.csproj.AssemblyReference.cache
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\obj\Debug\net6.0\MonopolyTestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\obj\Debug\net6.0\MonopolyTestApp.AssemblyInfoInputs.cache
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\obj\Debug\net6.0\MonopolyTestApp.AssemblyInfo.cs
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\obj\Debug\net6.0\MonopolyTestApp.csproj.CoreCompileInputs.cache
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\obj\Debug\net6.0\MonopolyTestApp.dll
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\obj\Debug\net6.0\refint\MonopolyTestApp.dll
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\obj\Debug\net6.0\MonopolyTestApp.pdb
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\obj\Debug\net6.0\MonopolyTestApp.genruntimeconfig.cache
+C:\Users\romai\RiderProjects\MonopolyCompany\MonopolyTestApp\MonopolyTestApp\obj\Debug\net6.0\ref\MonopolyTestApp.dll
