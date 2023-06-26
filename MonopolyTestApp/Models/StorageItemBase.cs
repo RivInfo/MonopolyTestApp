@@ -21,6 +21,6 @@ public abstract class StorageItemBase
     
     public override string ToString()
     {
-        return $"Id: {Id:D5} Объём: {Volume:000.0000};";
+        return $"Id: {Id:D5} Размер {Width:F1}/{Height:F1}/{Depth:F1}; Объём: {Volume:000.0000};";
     }
 }

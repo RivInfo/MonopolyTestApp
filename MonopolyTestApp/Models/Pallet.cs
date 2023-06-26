@@ -34,7 +34,7 @@ public class Pallet : StorageItemBase
         }
     }
 
-    public IEnumerable<Box> GetBoxes => _boxes;
+    public List<Box> GetBoxes => _boxes;
 
     public Pallet(int id, float width, float height, float depth) : base(id, width, height, depth)
     {
@@ -42,7 +42,8 @@ public class Pallet : StorageItemBase
     
     public override string ToString()
     {
-        return $"{base.ToString()} Коробок в паллете: {_boxes.Count}; Cрок годности: {GetExpirationDate()}.";
+        return $"{base.ToString()} Коробок в паллете: {_boxes.Count}; Вес: {Weight:000.00} Кг; " +
+               $"Cрок годности: {GetExpirationDate()}.";
     }
     
     public DateOnly GetExpirationDate()
