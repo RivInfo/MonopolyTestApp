@@ -5,6 +5,8 @@ namespace MonopolyTestApp.DataWorker;
 
 public class PalletsLifeVolume : IDataWorker
 {
+    private const int OrderTakeCount = 3;
+    
     public string GetResult(List<Pallet> pallets)
     {
         StringBuilder stringBuilder = new StringBuilder();
@@ -13,7 +15,7 @@ public class PalletsLifeVolume : IDataWorker
                              "отсортированные по возрастанию объема:\n");
             
         var sortPallets = pallets.OrderByDescending(p => p.GetExpirationDate())
-            .Take(3).OrderBy(p => p.Volume);
+            .Take(OrderTakeCount).OrderBy(p => p.Volume);
 
         foreach (var pallet in sortPallets)
         {
