@@ -13,7 +13,8 @@ public class Box : StorageItemBase
         init
         {
             _productionDate = value;
-            _expirationDate = _productionDate.AddDays(100);
+            if(_expirationDate == DateOnly.MinValue)
+                _expirationDate = _productionDate.AddDays(100);
         }
     }
 
