@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonopolyTestApp", "MonopolyTestApp\MonopolyTestApp.csproj", "{F2D166B7-8AE5-4F70-9AB5-E8FAD8B90FAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{A7E59C0C-587D-468B-94F4-448CB1D70BCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{F2D166B7-8AE5-4F70-9AB5-E8FAD8B90FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2D166B7-8AE5-4F70-9AB5-E8FAD8B90FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2D166B7-8AE5-4F70-9AB5-E8FAD8B90FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E59C0C-587D-468B-94F4-448CB1D70BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E59C0C-587D-468B-94F4-448CB1D70BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E59C0C-587D-468B-94F4-448CB1D70BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E59C0C-587D-468B-94F4-448CB1D70BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
