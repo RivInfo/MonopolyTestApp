@@ -6,13 +6,8 @@ public class PalletTryAddBoxTests
 {
     private Pallet _pallet = new Pallet(0, 10, 0.5f, 10);
 
-    private Box _boxInPalletTrue = new Box(0, 10, 10, 10, 50, "Картошка");
-    private Box _boxInPalletFalse = new Box(1, 10, 10, 20, 250, "Гвозди");
-    
-    [SetUp]
-    public void Setup()
-    {
-    }
+    private Box _boxInPalletTrue = new Box(0, 10, 10, 10, 50);
+    private Box _boxInPalletFalse = new Box(1, 10, 10, 20, 250);
 
     [Test]
     public void TryAddBox_ReturnTrue()

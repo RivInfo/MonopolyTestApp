@@ -12,8 +12,7 @@ public class BoxGenerator
             RandomFloat.GetRandomFloat(BoxParameters.MinWidth, BoxParameters.MaxWidth), 
             RandomFloat.GetRandomFloat(BoxParameters.MinHeight, BoxParameters.MaxHeight), 
             RandomFloat.GetRandomFloat(BoxParameters.MinDepth, BoxParameters.MaxDepth), 
-            RandomFloat.GetRandomFloat(BoxParameters.MinWeight, BoxParameters.MaxWeight), 
-            ((char)_random.Next('A','Z')).ToString())
+            RandomFloat.GetRandomFloat(BoxParameters.MinWeight, BoxParameters.MaxWeight))
         {
             ExpirationDate = new DateOnly(_random.Next(BoxParameters.MinYear, BoxParameters.MaxYear),
                     _random.Next(BoxParameters.MinMonth,BoxParameters.MaxMonth),1)

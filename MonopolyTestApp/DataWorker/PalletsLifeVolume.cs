@@ -13,13 +13,22 @@ public class PalletsLifeVolume : IDataWorker
 
         stringBuilder.Append("3 паллеты, которые содержат коробки с наибольшим сроком годности, " +
                              "отсортированные по возрастанию объема:\n");
-            
+
         var sortPallets = pallets.OrderByDescending(p => p.GetExpirationDate())
             .Take(OrderTakeCount).OrderBy(p => p.Volume);
 
         foreach (var pallet in sortPallets)
         {
             stringBuilder.Append(pallet);
+            
+            var sortedBoxes = pallet.GetBoxes.OrderByDescending(p => p.ExpirationDate);
+            foreach (var box in sortedBoxes)
+            {
+                stringBuilder.Append('\n');
+                stringBuilder.Append("    ");
+                stringBuilder.Append(box);
+            }
+            
             stringBuilder.Append('\n');
         }
         
